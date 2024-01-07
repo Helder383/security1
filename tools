@@ -1,0 +1,36 @@
+// Perfom a full scan 
+# nmap -A [target_url]
+
+// Perfom a scan to a certain port
+# nmap -p[number_port]  [target]
+
+// Perfom a scan in ports in order way
+# nmap    -r   [target]   // 
+
+// How to see firewall Rules 
+# nmap -sA [target]
+
+// How to perfom a scan in a certain port
+# nmap -p 4444 [target]
+
+// Find domain 
+# findomain -t [target]
+
+// Find Dir
+$ dirb [target_url] 
+App:  DirBuster
+
+// Finding visible host
+DNSdumpster.com
+HackerTarget.com
+
+// Finding broken links
+# wget --spider -r [target]
+
+// Enumerating dns
+$ dnsenum [target_url]
+
+//Info about any website
+whois [url_]
+
+
